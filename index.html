@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/super-classes.css">
+   <link rel="stylesheet" href="assets/css/custom-style.css">
+   <link rel="stylesheet" href="assets/css/mobile.css">
+
+   <title>ENA</title>
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
+   <script src="assets/js/popper.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script>
+      $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+   </script>
+</head>
+
+<body>
+   <!--navbar-->
+   <div class="w-100 float-left header-con">
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand" href="index.html" >
+               <img src="assets/images/ENA-Logo.png" alt="ENA LOGO" id="navbar-brand">
+               <!-- <a class="navbar-brand" href="index.html" >
+                        <img src="assets/images/ENA-Logo.png" alt="ENA LOGO" id="navbar-brand" style="padding-bottom: 20px;">
+                     </a> -->
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               <span class="navbar-toggler-icon"></span>
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active pl-lg-0">
+                     <a class="nav-link p-0" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link p-0" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link p-0" href="contact.html">CONTACT</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       PAGES
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="list-unstyled">
+                           <li><a class="dropdown-item" href="speaker-detail.html">SPEAKER DETAILS</a></li>
+                           <li><a class="dropdown-item" href="event-detail.html">EVENT DETAILS</a></li>
+                           <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+                        </ul>
+                     </div>
+                   </li> -->
+                  <li class="nav-item">
+                     <a class="nav-link p-0" href="membership.html">MEMBERSHIP</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link p-0" href="events.html">EVENTS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link p-0" href="gallery.php">GALLERY</a>
+                  </li>
+               </ul>
+               <div class="navbar-btn d-inline-block">
+                  <a href="register.html">REGISTER <i class="fas fa-angle-right"></i></a>
+               </div>
+               <div class="navbar-btn d-inline-block">
+                  <a href="login.html">LOGIN <i class="fas fa-sign-in-alt"></i></a>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </div>
+   <!--navbar-->
+   <!--banner-->
+   <section class="banner-main-sec w-100 float-left d-table position-relative">
+      <div class="d-table-cell align-middle">
+         <div class="container">
+            <div class="banner-inner-sec text-white d-inline-block">
+
+               <span class="wow bounceInUp d-inline-block" data-wow-duration="2s">WE ARE</span>
+               <h1 class="position-relative wow bounceInUp" data-wow-duration="2s">Emirates <br> Nutrition <br> Association  </h1>
+
+            </div>
+         </div>
+         <div class="banner-social-icons">
+            <ul class="list-unstyled p-0 text-center mb-0">
+               <li class="wow bounceInUp" data-wow-duration="2s"><a class="d-inline-block" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+               <li class="wow bounceInUp" data-wow-duration="2s"><a class="d-inline-block" href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a></li>
+               <li class="wow bounceInUp" data-wow-duration="2s"><a class="d-inline-block mb-0" href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <!--banner-->
+   <!--conference-sec-->
+   <!--conference-sec (Carousel for Responsibilities)-->
+<section class="conference-sec w-100 float-left padding-top padding-bottom">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-12">
+               <div class="confernce-static-sec">
+                   <h3 class="wow bounceInUp" data-wow-duration="1s">Emirates Nutrition Association is responsible for:</h3>
+                   <br>
+                   <div id="responsibilityCarousel" class="carousel slide" data-ride="carousel">
+                       <div class="carousel-inner">
+                           <!-- Slide 1 -->
+                           <div class="carousel-item active">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/Scientific-communications.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Develop the scientific and professional performance of the members and achieve the scientific communication between them.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 2 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/fpsyg-13-875940-g001.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Facilitate the exchange of scientific outcomes and ideas in the Association's field of interest between the concerned bodies and institutions nationally and internationally.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 3 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/Skills-that-dietician-candidates-must-have.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Enhance the scientific application of nutrition and dietetics and the related subjects.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 4 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/NutritionIndustry-606x303.png" alt="petey-img" class="d-block w-100">
+                                   <p>Strengthening the training and learning in the field of food science, nutrition, and dietetics.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 5 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/NHS 2021 - Webinar Series I.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Provide scientific advice in the field of the Association.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 6 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/ResearchEvaluation_CSF_2023.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Addressing the challenges and the growing negative impact of malnutrition on public health.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 7 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/Sports Nutrition Workshop Flyer.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Advance the levels of health and nutrition awareness among the public.</p>
+                               </div>
+                           </div>
+                           <!-- Slide 8 -->
+                           <div class="carousel-item">
+                               <div class="static-con text-center wow bounceInUp" data-wow-duration="1s">
+                                 <img src="assets/images/Work_ethic.jpg" alt="petey-img" class="d-block w-100">
+                                   <p>Contribute to the improvement of the criteria and standards of practice within the profession.</p>
+                               </div>
+                           </div>
+                       </div>
+
+                       <!-- Controls -->
+                       <a class="carousel-control-prev" href="#responsibilityCarousel" role="button" data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Previous</span>
+                       </a>
+                       <a class="carousel-control-next" href="#responsibilityCarousel" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Next</span>
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+   <!--conference-sec-->
+   <!--speakers-sec-->
+   <section class="speakers-sec w-100 float-left padding-top padding-bottom position-relative">
+      <div class="container my-5">
+         <div id="speakerCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/DM Photo 3.jpg" alt="petey-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Nominate yourself to be one of our next Association Board member</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/NHS 2024.png" alt="bob-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Submit a proposal for a training workshop or a symposium idea that can be among our next scientific activities calendar</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/Email-newsletter.jpg" alt="shonda-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Submit a topic for our monthly Newsletter</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/full-unsplash-1.jpg" alt="cliff-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Post a job vacancy from your organization to ECNS members</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/NASO-Guidelines-Infographic.jpeg" alt="barry-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Get in touch with domain experts and ECNS members from the field</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/organigramm.jpg" alt="samantha-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Be informed and read ECNS members scientific publications</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <a href="speakers.html">
+                                <div class="speaker-con position-relative w-100">
+                                    <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                                        <img src="assets/images/Body Composition Analysis.jpeg" alt="samantha-img" class="d-block w-100">
+                                    </figure>
+                                    <div class="speaker-detail w-100 d-flex align-items-center justify-content-between">
+                                        <div class="speaker-status text-white wow bounceInUp" data-wow-duration="2s">
+                                            <h6>Promote for your events and health awareness activities</h6>
+                                        </div>
+                                        <div class="speaker-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#speakerCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#speakerCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+     </div>
+   </section>
+   <!--speakers-sec-->
+    <!--registration-sec-->
+    <section class="members-main-sec w-100 float-left padding-top position-relative">
+      <div class="container">
+          <div class="generic-title text-center">
+              <h2 class="wow bounceInUp" data-wow-duration="2s" style="margin-bottom: 30px;">Board Members</h2>
+          </div>
+          <div class="row">
+              <!-- Member 1 -->
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                  <div class="member-wrapper">
+                      <figure class="member-figure">
+                          <img src="assets/images/ava-img.png" alt="Dr. Ayesha Salem Al Dhaheri" class="member-img">
+                          <figcaption class="member-info">
+                           <img style="height:30%; width:30% ;" src="assets/images/ava-img.png" alt="Dr. Ayesha Salem Al Dhaheri" class="member-img" >
+                              <h5>Dr. Ayesha Salem Al Dhaheri</h5>
+                              <p>Position: President</p>
+                              <p>Professional Title: Vice Dean</p>
+                              <p>Place Of Work: UAE University</p>
+                              <p>Specialty: Clinical Nutrition</p>
+                          </figcaption>
+                      </figure>
+                  </div>
+              </div>
+              <!-- Member 2 -->
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+               <div class="member-wrapper">
+                   <figure class="member-figure">
+                       <img src="assets/images/ava-img.png" alt="Ms. Latifa Mohamed Rashid" class="member-img">
+                       <figcaption class="member-info">
+                        <img style="height:30%; width:30% ;" src="assets/images/ava-img.png" alt="Ms. Latifa Mohamed Rashid" class="member-img">
+                           <h5>Ms. Latifa Mohamed Rashid</h5>
+                           <p>Position: Vice President</p>
+                           <p>Professional Title: Head of Nutrition Section</p>
+                           <p>Place Of Work: Ministry of Health, Dubai</p>
+                           <p>Specialty: Clinical Nutrition</p>
+                       </figcaption>
+                   </figure>
+               </div>
+           </div>
+              <!-- Member 3 -->
+<div class="col-lg-3 col-md-6 col-sm-6 text-center">
+   <div class="member-wrapper">
+       <figure class="member-figure">
+           <img src="assets/images/ava-img.png" alt="Ms. Nada Zuhair Al Adeeb" class="member-img">
+           <figcaption class="member-info">
+            <img style="height:30%; width:30% ;" src="assets/images/ava-img.png" alt="Ms. Nada Zuhair Al Adeeb" class="member-img">
+               <h5>Ms. Nada Zuhair Al Adeeb</h5>
+               <p>Position: General Secretary</p>
+               <p>Professional Title: Manager of Community Nutrition</p>
+               <p>Place Of Work: Tawam Hospital</p>
+               <p>Specialty: Community Nutrition</p>
+           </figcaption>
+       </figure>
+   </div>
+</div>
+
+<!-- Member 4 -->
+<div class="col-lg-3 col-md-6 col-sm-6 text-center">
+   <div class="member-wrapper">
+       <figure class="member-figure">
+           <img src="assets/images/ava-img.png" alt="Ms. Salma Hashem Alhebshi" class="member-img">
+           <figcaption class="member-info">
+            <img style="height:30%; width:30% ;" src="assets/images/ava-img.png" alt="Ms. Salma Hashem Alhebshi" class="member-img">
+               <h5>Ms. Salma Hashem Alhebshi</h5>
+               <p>Position: Treasurer</p>
+               <p>Professional Title: Instructor at UAE University</p>
+               <p>Specialty: Community Nutrition</p>
+           </figcaption>
+       </figure>
+   </div>
+</div>
+
+          </div>
+      </div>
+  </section>
+
+
+
+
+   <!--registration-sec-->
+   <!--registration-sec-->
+   <!-- <section class="registration-sec w-100 float-left padding-top padding-bottom">
+      <div class="container">
+         <div class="registration-inner-sec text-center">
+            <div class="generic-title text-white">
+               <h2 class="text-white wow bounceInUp" data-wow-duration="2s">Are You Good Speaker?</h2>
+               <p class="wow bounceInUp" data-wow-duration="2s">Join our community and share your toughts with the one who need to strech their limits aute irure <br> dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            </div>
+            <div class="generic-button white-btn d-inline-block wow bounceInUp" data-wow-duration="2s">
+               <a href="contact.html">REGISTER NOW <i class="fas fa-angle-right"></i></a>
+            </div>
+         </div>
+      </div>
+   </section> -->
+   <!--registration-sec-->
+
+
+   <!--service-sec-->
+   <!-- <section class="service-main-sec w-100 float-left padding-top padding-bottom">
+      <div class="container">
+         <div class="generic-title text-center">
+            <h2 class="wow bounceInUp" data-wow-duration="2s">We Provide Best Services</h2>
+            <p class="wow bounceInUp" data-wow-duration="2s">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur <br>
+               sint occaecat cupidatat non proident.</p>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon1.png" alt="service-icon1">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Time Table</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon2.png" alt="service-icon2">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Music Facility</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon3.png" alt="service-icon3">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Different Games</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center mb-0">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon4.png" alt="service-icon4">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Fresh Drinks</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center mb-0">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon5.png" alt="service-icon5">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Award Gifts</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+               <div class="service-box text-center mb-0">
+                  <figure class="wow bounceInUp" data-wow-duration="2s">
+                     <img src="assets/images/service-icon6.png" alt="service-icon6">
+                  </figure>
+                  <h4 class="wow bounceInUp" data-wow-duration="2s">Decoration</h4>
+                  <p class="mb-0 wow bounceInUp" data-wow-duration="2s">Porro quisquam est, aui dolorem <br> isum ruia zero sit amet conseur <br>
+                     adieisci omnis</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section> -->
+   <!--service-sec-->
+   <!--blog-sec-->
+   <!-- <section class="blog-main-sec w-100 float-left padding-top position-relative">
+      <div class="container">
+         <div class="generic-title text-center">
+            <h2 class="wow bounceInUp" data-wow-duration="2s">Upcoming Events</h2>
+            <p class="wow bounceInUp" data-wow-duration="2s">Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur <br>
+               sint occaecat cupidatat non proident.</p>
+         </div>
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="blog-con">
+                  <div class="blog-img">
+                     <a href="#" data-toggle="modal" data-target="#blog1">
+                        <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                           <img src="assets/images/blog-img1.jpg" alt="blog-img1">
+                        </figure>
+                     </a>
+                     <div class="date text-white wow bounceInUp" data-wow-duration="2s"><span>18</span><small>Apr</small></div>
+                  </div>
+                  <div class="blog-inner-con">
+                     <div class="admin-con wow bounceInUp" data-wow-duration="2s">
+                        <ul class="list-unstyled d-inline-block">
+                           <li class="d-inline-block">
+                              <i class="fas fa-user"></i>
+                              <span>Jonahtan Rem</span>
+                           </li>
+                           <li class="d-inline-block">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Prism Club, Canada</span>
+                           </li>
+                        </ul>
+                     </div>
+                     <a href="#" data-toggle="modal" data-target="#blog1">
+                        <h5 class="wow bounceInUp" data-wow-duration="2s">Maiores alias conseuatur aut
+                           nerferendis eveniet</h5>
+                     </a>
+                     <p class="wow bounceInUp" data-wow-duration="2s">Officia deserunt mollitia animi res est laborum et dolorum fugaharum quide rerum facilis expedia distinctio. </p>
+                     <div class="blog-arrow wow bounceInUp" data-wow-duration="2s">
+                        <a class="d-inline-block" href="#" data-toggle="modal" data-target="#blog1"><i class="fas fa-angle-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog-con">
+                  <div class="blog-img blog-left-img">
+                     <a href="#" data-toggle="modal" data-target="#blog2">
+                        <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                           <img src="assets/images/blog-img2.jpg" alt="blog-img2">
+                        </figure>
+                     </a>
+                     <div class="date text-white wow bounceInUp" data-wow-duration="2s"><span>21</span><small>Apr</small></div>
+                  </div>
+                  <div class="blog-inner-con blog-right-con">
+                     <div class="admin-con wow bounceInUp" data-wow-duration="2s">
+                        <ul class="list-unstyled d-inline-block">
+                           <li class="d-inline-block">
+                              <i class="fas fa-user"></i>
+                              <span>Jonahtan Rem</span>
+                           </li>
+                           <li class="d-inline-block">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Prism Club, Canada</span>
+                           </li>
+                        </ul>
+                     </div>
+                     <a href="#" data-toggle="modal" data-target="#blog2">
+                        <h5 class="wow bounceInUp" data-wow-duration="2s">Maiores alias conseuatur aut
+                           nerferendis eveniet</h5>
+                     </a>
+                     <p class="wow bounceInUp" data-wow-duration="2s">Officia deserunt mollitia animi res est laborum et dolorum fugaharum quide rerum facilis expedia distinctio. </p>
+                     <div class="blog-arrow wow bounceInUp" data-wow-duration="2s">
+                        <a class="d-inline-block" href="#" data-toggle="modal" data-target="#blog2"><i class="fas fa-angle-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog-con">
+                  <div class="blog-img">
+                     <a href="#" data-toggle="modal" data-target="#blog3">
+                        <figure class="mb-0 wow bounceInUp" data-wow-duration="2s">
+                           <img src="assets/images/blog-img3.jpg" alt="blog-img3">
+                        </figure>
+                     </a>
+                     <div class="date text-white wow bounceInUp" data-wow-duration="2s"><span>26</span><small>Apr</small></div>
+                  </div>
+                  <div class="blog-inner-con">
+                     <div class="admin-con wow bounceInUp" data-wow-duration="2s">
+                        <ul class="list-unstyled d-inline-block">
+                           <li class="d-inline-block">
+                              <i class="fas fa-user"></i>
+                              <span>Jonahtan Rem</span>
+                           </li>
+                           <li class="d-inline-block">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Prism Club, Canada</span>
+                           </li>
+                        </ul>
+                     </div>
+                     <a href="#" data-toggle="modal" data-target="#blog3">
+                        <h5 class="wow bounceInUp" data-wow-duration="2s">Maiores alias conseuatur aut
+                           nerferendis eveniet</h5>
+                     </a>
+                     <p class="wow bounceInUp" data-wow-duration="2s">Officia deserunt mollitia animi res est laborum et dolorum fugaharum quide rerum facilis expedia distinctio. </p>
+                     <div class="blog-arrow wow bounceInUp" data-wow-duration="2s">
+                        <a class="d-inline-block" href="#" data-toggle="modal" data-target="#blog3"><i class="fas fa-angle-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section> -->
+   <!--blog-sec-->
+   <!--footer-sec-->
+   <section class="footer-main-sec w-100 float-left padding-top position-relative">
+      <div class="container">
+         <!--form-sec-->
+         <div class="form-sec d-flex align-items-center">
+            <h3 class="mb-0">Subscribe To <br>
+               Our Newsletter</h3>
+            <input type="email" placeholder="Enter Email Address">
+            <div class="form-btn red-btn d-inline-block">
+               <button type="submit">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+            </div>
+         </div>
+         <div class="footer-inner-sec">
+            <ul class="list-unstyled text-center">
+               <li class="d-inline-block"><a class="text-white" href="index.html">HOME</a></li>
+               <li class="d-inline-block"><a class="text-white" href="about.html">ABOUT</a></li>
+               <li class="d-inline-block"><a class="text-white" href="contact.html">CONTACT</a></li>
+               <li class="d-inline-block"><a class="text-white" href="membership.html">MEMBERSHIP</a></li>
+               <li class="d-inline-block"><a class="text-white" href="event.html">EVENTS</a></li>
+               <li class="d-inline-block"><a class="text-white" href="gallery.php">GALLERY</a></li>
+
+
+
+            </ul>
+            <div class="footer-social-sec text-center">
+               <a href="index.html">
+                  <figure>
+                     <!-- <img src="assets/images/Confrico.png" alt="Confrico"> -->
+                     <a class="navbar-brand" href="index.html" >
+                        <img src="assets/images/ENA-Logo.png" alt="ENA LOGO" id="navbar-brand" style="padding-bottom: 20px;">
+                     </a>
+                  </figure>
+               </a>
+               <ul class="list-unstyled p-0">
+                  <li class="d-inline-block"><a class="d-inline-block" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                  <!-- <li class="d-inline-block"><a class="d-inline-block" href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a></li>
+                  <li class="d-inline-block"><a class="d-inline-block" href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a></li> -->
+                  <li class="d-inline-block"><a class="d-inline-block" href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a></li>
+                  <!-- <li class="d-inline-block"><a class="d-inline-block" href="https://www.pinterest.com/login/"><i class="fab fa-pinterest-p"></i></a></li> -->
+               </ul>
+               <span class="text-white d-inline-block">Copyright 2024, Confrico. All Rights Reserved.</span>
+            </div>
+         </div>
+         <!--form-sec-->
+
+      </div>
+   </section>
+   <!--footer-sec-->
+   <!--blog1 modal-->
+   <div id="blog1" class="modal fade pr-0" tabindex="-1">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+            </div>
+            <div class="modal-body text-center blog-model-content">
+               <figure class="text-center">
+                  <img src="assets/images/bog-modal-img3.png" alt="bog-modal-img3" class="img-fluid">
+               </figure>
+               <div class="admin-con">
+                  <ul class="list-unstyled d-inline-block">
+                     <li class="d-inline-block">
+                        <i class="fas fa-user"></i>
+                        <span>Jonahtan Rem</span>
+                     </li>
+                     <li class="d-inline-block">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Prism Club, Canada</span>
+                     </li>
+                  </ul>
+               </div>
+               <h4>Maiores alias conseuatur aut nerferendis eveniet</h4>
+               <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus in ante in vestibulum. Mauris tempor sem sed neque rutrum faucibus. Nam in nunc semper, porttitor justo id, feugiat enim. Donec pharetra, mi non suscipit fermentum, lectus velit tincidunt nibh, non molestie lacus erat id justo. Ut nec lacus id justo condimentum tristique. Maecenas ac arcu luctus, dignissim libero ac, tristique ipsum. Nunc commodo pharetra odio maximus volutpat. Praesent a tristique ligula. Nulla sed tellus eget ligula consectetur convallis. Praesent at tortor neque. Nam vel purus sem. Nulla auctor mi sapien, ac tempus metus fringilla ut. Vestibulum placerat purus ac bibendum facilisis. Nulla eu orci lectus. Cras interdum tellus a interdum malesuada. Duis consectetur posuere sem sed rutrum.</p>
+               <ul class="list-unstyled model-list mb-md-3 mb-2">
+                  <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+                  <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+                  <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+               </ul>
+               <div class="contact-form">
+                  <form>
+                     <ul class="list-unstyled mb-0">
+                        <li class="float-left"><input class="w-100" placeholder="Your Name" type="text" name="name" id="name"></li>
+                        <li class="float-left"><input class="w-100" type="text" placeholder="Your Email" name="email" id="email"></li>
+                        <li class="float-left"><input class="w-100" type="text" placeholder="Phone Number" name="phone" id="phone"></li>
+                        <li class="float-left"><input class="w-100" type="text" placeholder="Subject" name="address" id="address"></li>
+                        <li class="w-100"><textarea class="w-100" placeholder="Message"></textarea></li>
+                        <li class="mb-0 w-100 d-inline-block form-btn red-btn">
+                           <button>SUBMIT NOW<i class="fas fa-angle-right"></i></button>
+                        </li>
+                     </ul>
+                  </form>
+                </div>
+            </div>
+         </div>
+      </div>
+   </div>
+  <!--blog1 modal-->
+  <!--blog2 modal-->
+  <div id="blog2" class="modal fade pr-0" tabindex="-1">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+         </div>
+         <div class="modal-body text-center blog-model-content">
+            <figure class="text-center">
+               <img src="assets/images/bog-modal-img1.png" alt="bog-modal-img1" class="img-fluid">
+            </figure>
+            <div class="admin-con">
+               <ul class="list-unstyled d-inline-block">
+                  <li class="d-inline-block">
+                     <i class="fas fa-user"></i>
+                     <span>Jonahtan Rem</span>
+                  </li>
+                  <li class="d-inline-block">
+                     <i class="fas fa-map-marker-alt"></i>
+                     <span>Prism Club, Canada</span>
+                  </li>
+               </ul>
+            </div>
+            <h4>Maiores alias conseuatur aut nerferendis eveniet</h4>
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus in ante in vestibulum. Mauris tempor sem sed neque rutrum faucibus. Nam in nunc semper, porttitor justo id, feugiat enim. Donec pharetra, mi non suscipit fermentum, lectus velit tincidunt nibh, non molestie lacus erat id justo. Ut nec lacus id justo condimentum tristique. Maecenas ac arcu luctus, dignissim libero ac, tristique ipsum. Nunc commodo pharetra odio maximus volutpat. Praesent a tristique ligula. Nulla sed tellus eget ligula consectetur convallis. Praesent at tortor neque. Nam vel purus sem. Nulla auctor mi sapien, ac tempus metus fringilla ut. Vestibulum placerat purus ac bibendum facilisis. Nulla eu orci lectus. Cras interdum tellus a interdum malesuada. Duis consectetur posuere sem sed rutrum.</p>
+            <ul class="list-unstyled model-list mb-md-3 mb-2">
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+            </ul>
+            <div class="contact-form">
+               <form>
+                  <ul class="list-unstyled mb-0">
+                     <li class="float-left"><input class="w-100" placeholder="Your Name" type="text" name="name" id="name"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Your Email" name="email" id="email"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Phone Number" name="phone" id="phone"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Subject" name="address" id="address"></li>
+                     <li class="w-100"><textarea class="w-100" placeholder="Message"></textarea></li>
+                     <li class="mb-0 w-100 d-inline-block form-btn red-btn">
+                        <button>SUBMIT NOW<i class="fas fa-angle-right"></i></button>
+                     </li>
+                  </ul>
+               </form>
+             </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!--blog2 modal-->
+<!--blog3 modal-->
+<div id="blog3" class="modal fade pr-0" tabindex="-1">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+         </div>
+         <div class="modal-body text-center blog-model-content">
+            <figure class="text-center">
+               <img src="assets/images/bog-modal-img2.png" alt="bog-modal-img2" class="img-fluid">
+            </figure>
+            <div class="admin-con">
+               <ul class="list-unstyled d-inline-block">
+                  <li class="d-inline-block">
+                     <i class="fas fa-user"></i>
+                     <span>Jonahtan Rem</span>
+                  </li>
+                  <li class="d-inline-block">
+                     <i class="fas fa-map-marker-alt"></i>
+                     <span>Prism Club, Canada</span>
+                  </li>
+               </ul>
+            </div>
+            <h4>Maiores alias conseuatur aut nerferendis eveniet</h4>
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus in ante in vestibulum. Mauris tempor sem sed neque rutrum faucibus. Nam in nunc semper, porttitor justo id, feugiat enim. Donec pharetra, mi non suscipit fermentum, lectus velit tincidunt nibh, non molestie lacus erat id justo. Ut nec lacus id justo condimentum tristique. Maecenas ac arcu luctus, dignissim libero ac, tristique ipsum. Nunc commodo pharetra odio maximus volutpat. Praesent a tristique ligula. Nulla sed tellus eget ligula consectetur convallis. Praesent at tortor neque. Nam vel purus sem. Nulla auctor mi sapien, ac tempus metus fringilla ut. Vestibulum placerat purus ac bibendum facilisis. Nulla eu orci lectus. Cras interdum tellus a interdum malesuada. Duis consectetur posuere sem sed rutrum.</p>
+            <ul class="list-unstyled model-list mb-md-3 mb-2">
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+               <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet, consectetur adipiscn elit.</li>
+            </ul>
+            <div class="contact-form">
+               <form>
+                  <ul class="list-unstyled mb-0">
+                     <li class="float-left"><input class="w-100" placeholder="Your Name" type="text" name="name" id="name"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Your Email" name="email" id="email"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Phone Number" name="phone" id="phone"></li>
+                     <li class="float-left"><input class="w-100" type="text" placeholder="Subject" name="address" id="address"></li>
+                     <li class="w-100"><textarea class="w-100" placeholder="Message"></textarea></li>
+                     <li class="mb-0 w-100 d-inline-block form-btn red-btn">
+                        <button>SUBMIT NOW<i class="fas fa-angle-right"></i></button>
+                     </li>
+                  </ul>
+               </form>
+             </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!--blog3 modal-->
+<script src="assets/js/main.js"></script>
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
+   <!-- <script src="assets/js/jquery-3.2.1.slim.min.js"></script> -->
+   <script src="assets/js/popper.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+
+   <script src="assets/js/wow.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+
+</body>
+</html>
